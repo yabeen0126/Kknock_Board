@@ -13,4 +13,4 @@ move_uploaded_file($tmpfile,$folder);
 
 $sql = mq("insert into board(name,pw,title,content,date,file) values('".$_POST['name']."','".$userpw."','".$_POST['title']."','".$_POST['content']."','".$date."','".$o_name."')"); ?>
 <script type="text/javascript">alert("글쓰기 완료되었습니다.");</script>
-<meta http-equiv="refresh" content="0 url=/phplogin/mainboard.php" />
+<meta http-equiv="refresh" content="0 url=/mainboard.php" />
