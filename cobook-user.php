@@ -32,8 +32,8 @@
                 </form>
             </div>
             <ul class="button">
-                <li><a href="">장부작성</a></li>
-                <li><a href="">피드백</a></li>
+                <li><a href="">신문고작성</a></li>
+                <li><a href="">맛집추천</a></li>
             </ul>
             <div class="card">
                 <div class="menus"> 즐겨찾기
@@ -69,7 +69,7 @@
 
                     if ($result->num_rows > 0) {
                         echo '<table>';
-                        echo '<h3><a class="fix" href="">장부</h3>';
+                        echo '<h3><a href="">장부</h3>';
 
                         while ($row = $result->fetch_assoc()) {
                             $universityName = $row['university_name'];
@@ -89,7 +89,7 @@
             </div>
             <div class="card">
                 <div class="board">
-                    <h3><a href="">MT 리뷰</a></h3>
+                    <h3><a href="MT.php">MT 리뷰</a></h3>
                     <a class="list" href=""><time>07/30
                             18:00</time>
                         <p>내용 1</p>
@@ -132,7 +132,7 @@
             </div>
             <div class="card">
                 <div class="board">
-                    <h3><a href="">식당 추천</a></h3>
+                    <h3><a href="food.php">식당 추천</a></h3>
                     <a class="list" href=""><time>방금</time>
                         <p>내용 1</p>
                        

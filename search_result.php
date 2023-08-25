@@ -15,7 +15,7 @@
   $search_con = $_GET['search'];
 ?>
   <h1><?php echo $catagory; ?>에서 '<?php echo $search_con; ?>'검색결과</h1>
-  <h4 style="margin-top:30px;"><a href="/phplogin/mainboard.php">홈으로</a></h4>
+  <h4 style="margin-top:30px;"><a href="/mainboard.php">홈으로</a></h4>
     <table class="list-table">
       <thead>
           <tr>
@@ -60,7 +60,7 @@
           }
           ?>
         <!--- 추가부분 18.08.01 END -->
-        <a href='/phplogin/read.php?idx=<?php echo $board["idx"]; ?>'><span style="background:yellow;"><?php echo $title; }?></span><span class="re_ct">[<?php echo $rep_count;?>]<?php echo $img; ?> </span></a></td>
+        <a href='/read.php?idx=<?php echo $board["idx"]; ?>'><span style="background:yellow;"><?php echo $title; }?></span><span class="re_ct">[<?php echo $rep_count;?>]<?php echo $img; ?> </span></a></td>
           <td width="120"><?php echo $board['name']?></td>
           <td width="100"><?php echo $board['date']?></td>
           <td width="100"><?php echo $board['hit']; ?></td>

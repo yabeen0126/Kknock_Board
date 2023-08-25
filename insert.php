@@ -15,7 +15,7 @@
       $username = $_POST[ 'username' ];
       $password = $_POST[ 'password' ];
       
-        $jb_conn = mysqli_connect( 'localhost', 'habin', 'qwert1234', 'database' );
+        $jb_conn = mysqli_connect( 'localhost', 'yabeen', '1q2w3e4r', 'Kknockboard' );
         $jb_sql = "INSERT INTO login ( username, password ) VALUES (  '$username', '$password' );";
         mysqli_query( $jb_conn, $jb_sql );
         echo '<h1>가입완료! 로그인해주세요. </h1>';

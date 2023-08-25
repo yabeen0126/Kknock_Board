@@ -1,0 +1,325 @@
+h1{
+    color: red;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#logo > p > span.name.multiple {
+    margin-top: 20px;
+    margin-left: 3px;
+    line-height: 30px;
+    font-size: 25px;
+}
+
+#logo{
+    
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+#logo > p > span.name {
+    display: block;
+    color: #096432;
+    font-size: 18px;
+    font-weight: bold;
+}
+#logo > p > span.subname {
+    display: block;
+    line-height: 25px;
+    color: #292929;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+div.leftside {
+    position: absolute;
+    left: 25px;
+    top: 30px;
+    width: 175px;
+    height: 300px;
+}
+
+div, nav, aside, article, figure {
+    display: block;
+}
+
+div.leftside div.card {
+    margin-bottom: 10px;
+    border: 1px solid #d6d6d6;
+    background-color: #f9f9f9;
+}
+
+div{
+    color: #666;
+    font-family: "맑은 고딕", 돋움, "Apple SD Gothic Neo", tahoma;
+    _font-family: 돋움, tahoma;
+    font-size: 12px;
+    letter-spacing: -0.5px;
+}
+
+div.card > form.logged > p.nickname {
+    margin-bottom: 5px;
+    line-height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #393939;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+form.logged {
+    padding: 15px;
+}
+
+form.logged > img.picture {
+    display: block;
+    margin: 15px auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 6px;
+}
+
+img, input, select, textarea {
+    vertical-align: middle;
+}
+
+img {
+    border: 0;
+}
+
+div.card > form.logged > p.school {
+    line-height: 15px;
+    color: #a6a6a6;
+    font-size: 12px;
+    text-align: center;
+}
+
+div.card > form.logged > ul.buttons {
+    margin-top: 15px;
+}
+
+div.card > form.logged > ul.buttons > li {
+    float: left;
+    width: 50%;
+}
+
+div.card > form.logged > ul.buttons > li > a {
+    display: block;
+    margin-right: 5px;
+    border: 1px solid #d6d6d6;
+    border-radius: 3px;
+    line-height: 25px;
+    color: #737373;
+    font-size: 13px;
+    text-align: center;
+    text-decoration-line: none;
+}
+
+div.card > form.logged > ul.buttons > li:last-child > a {
+    margin-right: 0;
+    text-decoration-line: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-touch-callout: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+#container {
+    margin: 80px auto 0 auto;
+    width: 1180px;
+    box-sizing: border-box;
+}
+
+#container.community {
+    position: relative;
+    margin: 0 auto 25px auto;
+    top: 100px;
+}
+
+ul.button > li {
+    display: block;
+    /*margin-right: 5px;*/
+    margin-bottom: 5px;
+    border: 1px solid #d6d6d6;
+    border-radius: 3px;
+    line-height: 50px;
+    color: #737373;
+    font-size: 20px;
+    font: bold;
+    text-align: center;
+    
+}
+
+ul.button > li > a{
+    text-decoration-line: none;
+}
+
+nav {
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #00b445;
+    background-color: #ffffff;
+}
+
+nav > div.wrap {
+    margin: 0 auto;
+    width: 1180px;
+    height: 100%;
+}
+
+#container > div.main {
+    position: relative;
+    left: 215px;
+    margin: 15px 0;
+    width: 605px;
+    margin-left: 20px;
+}
+
+#container > div.main div.card {
+    float: left;
+    margin: 0 5px 5px 0;
+    width: 295px;
+    border: 1px solid #e3e3e3;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+#container > div.main div.card {
+    float: left;
+    margin: 0 5px 5px 0;
+    width: 295px;
+    border: 1px solid #e3e3e3;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+#container div.card h3 {
+    padding: 10px;
+}
+
+#container div.card h3 > a {
+    line-height: 20px;
+    color: #c62917;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#container div.card > div.board > a {
+    display: block;
+    padding: 10px;
+    border-top: 1px solid #e3e3e3;
+    text-decoration: none;
+}
+
+#container div.card > div.scroll > a {
+    display: block;
+    padding: 10px;
+    border-top: 1px solid #e3e3e3;
+    text-decoration: none;
+
+}
+
+#container div.card > div.scroll {
+
+    max-height: 355px;
+            /* Set the desired height here */
+     overflow-y: scroll;
+     
+
+}
+
+#container div.card > div.scroll::-webkit-scrollbar {
+    display: none; /* 크롬, 사파리, 오페라, 엣지 */
+}
+
+#container > div.leftside div.card {
+    margin-bottom: 5px;
+    border: 1px solid #d6d6d6;
+    background-color: #f9f9f9;
+    
+}
+
+#container div.card > div.menus > a.myarticle {
+    background-image: url(/images/new/container.community.card.myarticle.png);
+}
+#container div.card > div.menus > a {
+    display: block;
+    padding: 10px 0 10px 37px;
+    border-bottom: 1px solid #e3e3e3;
+    line-height: 20px;
+    box-sizing: border-box;
+    color: #444444;
+    font-size: 14px;
+    background-repeat: no-repeat;
+    background-size: 12px auto;
+    background-position: 15px center;
+    text-decoration: none;
+}
+
+#container div.card > div.board > a.list > time {
+    float: right;
+    margin-left: 10px;
+    height: 17px;
+    line-height: 18px;
+    color: #a6a6a6;
+    font-size: 11px;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+
+#container div.card > div.board > a.list > p {
+    height: 17px;
+    line-height: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #444444;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#container div.card > div.scroll > a.list {
+    height: 17px;
+    line-height: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #444444;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#container div.card > div.scroll > a.list {
+    height: 17px;
+    line-height: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #444444;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+body, div, nav, aside, article, h1, h2, h3, h4, ol, ul, li, dl, dt, dd, p, span, form, th, td, input, textarea, select, pre, address {
+    text-decoration: none;
+}

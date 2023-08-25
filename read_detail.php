@@ -56,7 +56,7 @@
     <col style="width: 353px">
   </colgroup>
   <?php
-  $sql = mq("select * from detail where num='2'"); /* 받아온 idx값을 선택 */
+  $sql = mq("select * from detail where num='1'"); /* 받아온 idx값을 선택 */
   $board = $sql->fetch_array();
   ?>
   <thead>
