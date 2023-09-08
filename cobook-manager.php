@@ -53,7 +53,7 @@
                     $host = "localhost";
                     $username = "habin";
                     $password = "qwert1234";
-                    $database = "database";
+                    $database = "Kknockboard";
 
                     // Create a connection
                     $conn = new mysqli($host, $username, $password, $database);
