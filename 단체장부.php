@@ -81,7 +81,7 @@
 			$host = 'localhost'; // 호스트명
 			$user = 'habin'; // 사용자명
 			$pass = 'qwert1234';   // 비밀번호
-			$dbname = 'univ'; // 데이터베이스 이름
+			$dbname = 'Kknockboard'; // 데이터베이스 이름
     
 			// 데이터베이스 연결
 			$conn = mysqli_connect($host, $user, $pass, $dbname);
@@ -139,7 +139,7 @@
 			$host = 'localhost'; // 호스트명
 			$user = 'habin'; // 사용자명
 			$pass = 'qwert1234';   // 비밀번호
-			$dbname = 'univ'; // 데이터베이스 이름
+			$dbname = 'Kknockboard'; // 데이터베이스 이름
     
 			$eventName = mysqli_real_escape_string($conn, $_POST['eventname']); // SQL 삽입 방지를 위해 문자열 처리
 
