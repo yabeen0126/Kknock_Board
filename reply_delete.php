@@ -1,5 +1,6 @@
 <?php
-include("db.php"); /* db load */
+//include("db.php"); /* db load */
+include $_SERVER['DOCUMENT_ROOT']."/db.php";
 $rno = $_POST['rno']; 
 $sql = mq("select * from reply where idx='".$rno."'");//reply테이블에서 idx가 rno변수에 저장된 값을 찾음
 $reply = $sql->fetch_array();
