@@ -69,7 +69,7 @@
 
                     if ($result->num_rows > 0) {
                         echo '<table>';
-                        echo '<h3><a href="">장부</h3>';
+                        echo '<h3><a href="./단체선택.php">장부</h3>';
 
                         while ($row = $result->fetch_assoc()) {
                             $universityName = $row['university_name'];
