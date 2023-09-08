@@ -51,7 +51,7 @@
 			$host = 'localhost'; // 호스트명
 			$user = 'habin'; // 사용자명
 			$pass = 'qwert1234';   // 비밀번호
-			$dbname = 'univ'; // 데이터베이스 이름
+			$dbname = 'Kknockboard'; // 데이터베이스 이름
     
 
 			// 데이터베이스 연결
