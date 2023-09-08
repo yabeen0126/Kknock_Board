@@ -3,7 +3,7 @@
     $host = 'localhost';
     $user = 'habin';
     $pass = 'qwert1234';
-    $dbname = 'univ';
+    $dbname = 'Kknockboard';
     
     // 데이터베이스 연결
     $conn = mysqli_connect($host, $user, $pass, $dbname);
